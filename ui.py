@@ -9,7 +9,7 @@ class QuizInterface:
         self.quiz = quiz_brain
 
         self.window = Tk()
-        self.window.title("Mahesan's Quizzler")
+        self.window.title("Visali's Quizzler")
         self.window.config(bg=THEME_COLOR, padx=20, pady=20)
 
         self.score = Label(text=f"Score:{self.quiz.score}", bg=THEME_COLOR, font=(10))
